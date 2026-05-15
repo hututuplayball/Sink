@@ -44,7 +44,7 @@ export default defineNuxtConfig({
   },
   routeRules: {
     '/': {
-      redirect: '/dashboard/links'
+      redirect: '/dashboard/login'
     },
     '/api/**': {
       cors: process.env.NUXT_API_CORS === 'true',
